@@ -6,7 +6,7 @@ export default defineConfig({
   description: "FTC West Coast Invitational Website",
   base: '/WCI-Website/',
   themeConfig: {
-    logo: '/assets/v3_logo.png',
+    logo: './assets/v3_logo.png',
     siteTitle: false,
 
     nav: [
