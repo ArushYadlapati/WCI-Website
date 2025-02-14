@@ -2,11 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: " ",
+  // title: "WCI-Website",
   description: "FTC West Coast Invitational Website",
   base: '/WCI-Website/',
   themeConfig: {
     logo: '/assets/v3_logo.png',
+    siteTitle: false,
 
     nav: [
       { text: 'Home', link: '/' },
