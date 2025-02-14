@@ -15,8 +15,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Payment', link: '/markdown-examples' },
+      { text: 'Flyer', link: '/flyer' },
       { text: 'Volunteer Form', link: 'https://forms.gle/mhn4rXsb4iEnrCjW8' },
-      { text: 'Flyer', link: '/markdown-examples' },
       { text: 'Contact', link: 'mailto:westcoastinvitationalftc@gmail.com' },
     ],
 

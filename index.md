@@ -12,10 +12,10 @@ hero:
       link: https://forms.gle/BikYtwEAd88kv4hr8
     - theme: alt
       text: Event Info
-      link: /api-examples
+      link: /event-info
     - theme: alt
       text: FAQs
-      link: /api-examples
+      link: /faq
 
 features:
   - title: Streaming
