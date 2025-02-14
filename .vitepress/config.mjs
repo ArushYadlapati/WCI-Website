@@ -24,8 +24,9 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Event Info', link: '/event-info' },
+          { text: 'FAQs', link: '/faq' },
+          { text: 'WCI Flyer', link: '/flyer' }
         ]
       }
     ],
