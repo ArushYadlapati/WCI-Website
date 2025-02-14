@@ -9,12 +9,12 @@ hero:
   actions:
     - theme: brand
       text: Signing Up
-      link: /markdown-examples
+      link: https://forms.gle/BikYtwEAd88kv4hr8
     - theme: alt
       text: Event Info
       link: /api-examples
     - theme: alt
-      text: Socials
+      text: FAQs
       link: /api-examples
 
 features:
