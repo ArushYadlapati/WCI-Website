@@ -5,6 +5,10 @@ export default defineConfig({
   description: "FTC West Coast Invitational Website",
   base: '/WCI-Website/',
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/ArushYadlapati/WCI-Website/edit/master/:path',
+      text: 'Edit this page on GitHub'
+    },
     logo: './assets/v3_logo.png',
     siteTitle: false,
 
@@ -27,7 +31,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'instagram', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'youtube', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
   head: [
