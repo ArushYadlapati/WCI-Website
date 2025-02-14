@@ -3,50 +3,26 @@
 layout: home
 
 hero:
-  name: "Pedro Pathing"
-  text: "FTC Path Follower"
-  tagline: "Maximize control over your robot!"
-  image:
-        dark: /images/pedropathinglogo-darkmode.png
-        light: /images/pedropathinglogo-lightmode.png
-        alt: Pedro Logo
+  name: "West Coast Invitational"
+  text: "FTC Offseason Event"
+  tagline: This invitational was created to highlight team's true potential and show off what they have accomplished this year in a competitive but fun event.
   actions:
     - theme: brand
-      text: Get Started
-      link: /overview
+      text: Signing Up
+      link: /markdown-examples
     - theme: alt
-      text: Localization
-      link: /localization/pick
+      text: Event Info
+      link: /api-examples
     - theme: alt
-      text: Automatic Tuners
-      link: /automatic/prerequisites
-    - theme: alt
-      text: PIDF Tuners
-      link: /pidf/intro
-    - theme: alt
-      text: Examples
-      link: /examples/buildauto
-    - theme: alt
-      text: Common Issues
-      link: /commonissues/pathovershoot
-    - theme: alt
-      text: Miscellaneous
-      link: /misc/localchanges
-    - theme: alt
-      text: General FTC
-      link: /general/adb
+      text: Socials
+      link: /api-examples
 
 features:
-  - title: Easy Localization
-    details: Configure your localizer with detailed guides for Drive Encoder, Two/Three Wheel setups, and more.
-  - title: Automatic Tuners
-    details: Learn how to fine-tune velocity and power with pre-built automatic tuning tools.
-  - title: Advanced PIDF Control
-    details: Master PIDF tuning for translational, heading, and drive mechanisms.
-  - title: Examples & Tutorials
-    details: Explore step-by-step examples for autonomous and teleop implementations.
-  - title: Troubleshooting Tips
-    details: Solve common issues like path overshoots and optimize performance with our tips.
-  - title: Miscellaneous Features
-    details: Dive into additional topics, from local changes to XML configuration tutorials.
+  - title: Streaming
+    details: All matches will be streamed on the official WCI YouTube channel and will be available for playback
+  - title: Awards
+    details: The winning and finalist alliances will receive awards and merchandise
+  - title: Format
+    details: There will be no judging, and will solely consist of the robot game due to not wanting to add the extra stress of judging that comes with traditional events
 ---
+
