@@ -6,7 +6,11 @@ hero:
   name: "West Coast Invitational"
   text: "FTC Offseason Event"
   tagline: This invitational was created to highlight team's true potential and show off what they have accomplished this year in a competitive but fun event.
-  actions:
+image:
+  light: ./public/assets/v3_logo.png
+  dark: ./public/assets/v3_logo.png
+  alt: WCI Logo
+actions:
     - theme: brand
       text: Signing Up
       link: https://forms.gle/BikYtwEAd88kv4hr8

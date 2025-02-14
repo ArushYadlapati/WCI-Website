@@ -9,7 +9,7 @@ export default defineConfig({
       pattern: 'https://github.com/ArushYadlapati/WCI-Website/edit/master/:path',
       text: 'Edit this page on GitHub'
     },
-    logo: './assets/v3_logo.png',
+    logo: './public/assets/v3_logo.png',
     siteTitle: false,
 
     nav: [
@@ -60,6 +60,7 @@ export default defineConfig({
       .VPNavBar .content-body {
         background-color: #1B2C50 !important;
       }
-    `]
+    `],
+    ['link', { rel: 'icon', href: './public/assets/favicon.ico' }]
   ],
 })
