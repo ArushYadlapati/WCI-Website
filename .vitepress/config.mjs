@@ -2,11 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "WCI Website",
+  title: " ",
   description: "FTC West Coast Invitational Website",
   base: '/WCI-Website/',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/assets/v3_logo.png',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Payment', link: '/markdown-examples' },
@@ -28,5 +29,18 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  head: [
+    ['style', {}, `
+      :root {
+        --vp-nav-height: 105px;  /* whatever navbar height you want */
+      }
+      .VPNavBar {
+        padding: 0 24px;
+      }
+      .VPNavBar .logo {
+        height: 100px;  /* whatever wci logo height you want */
+      }
+    `]
+  ],
 })
