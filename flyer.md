@@ -1,3 +1,3 @@
 # WCI Flyer
 
-![WCI Flyer](./assets/WCI_25_Poster.png)
+![WCI Flyer](public/assets/WCI_25_Poster.png)
