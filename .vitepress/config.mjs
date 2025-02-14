@@ -9,7 +9,7 @@ export default defineConfig({
       pattern: 'https://github.com/ArushYadlapati/WCI-Website/edit/master/:path',
       text: 'Edit this page on GitHub'
     },
-    logo: './public/assets/v3_logo.png',
+    logo: '/assets/v3_logo.png',
     siteTitle: false,
 
     nav: [
@@ -39,7 +39,7 @@ export default defineConfig({
   head: [
     ['style', {}, `
       :root {
-        --vp-nav-height: 105px;  /* whatever navbar height you want */
+        --vp-nav-height: 105px;
       }
       .VPNav {
         background-color: #1B2C50 !important;
@@ -49,7 +49,7 @@ export default defineConfig({
         background-color: #1B2C50 !important;
       }
       .VPNavBar .logo {
-        height: 100px; /* whatever wci logo height you want */
+        height: 100px;
       }
       .VPNavBarMenuLink {
         color: white !important;
@@ -61,6 +61,6 @@ export default defineConfig({
         background-color: #1B2C50 !important;
       }
     `],
-    ['link', { rel: 'icon', href: './public/assets/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/assets/favicon.ico' }]
   ],
 })
