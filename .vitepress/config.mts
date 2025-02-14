@@ -1,14 +1,14 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: 'Pedro Pathing',
-  description: 'Pedro Pathing Documentation',
-base: '/',
+  title: "WCI Website",
+  description: "FTC West Coast Invitational Website",
+base: '/WCI-Website/',
 head: [["link", {rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico"}]],
 lastUpdated: true,
   themeConfig: {
 editLink: {
-      pattern: 'https://github.com/Pedro-Pathing/Documentation/edit/master/:path',
+      pattern: 'https://github.com/ArushYadlapati/WCI-Website/edit/master/:path',
       text: 'Edit this page on GitHub'
     },
 nav: [
